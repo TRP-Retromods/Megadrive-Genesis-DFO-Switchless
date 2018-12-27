@@ -1,0 +1,16 @@
+I recommand to put the multibios in this order:
+
+Original --> EU --> JAP --> USA
+
+( Original is when the PIN are lifted or grounded.)
+
+
+For my Japanese MegaCD here's the command I put in the batch file:
+
+
+copy /B jp.bin + eu.bin + jp.bin + us.bin JEJU.bin
+
+Then program the output BIN file in a 27C4096
+
+
+If the order is not working, try to invert the wire on the Eprom.
